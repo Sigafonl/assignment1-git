@@ -18,7 +18,6 @@ class Hello{
             while(userInput.hasNextLine()){
                 System.out.println(userInput.nextLine());
             }
-
             userInput.close();
         } 
         catch (FileNotFoundException e){
