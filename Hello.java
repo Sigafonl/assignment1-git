@@ -15,11 +15,14 @@ class Hello{
         try{
             Scanner userInput = new Scanner(inFile);
 
+<<<<<<< HEAD
             //Teeeeesting 
+=======
+            //Print the strings from the files
+>>>>>>> 144646cb4a59bd4cce06c33731d23ec3ce833074
             while(userInput.hasNextLine()){
                 System.out.println(userInput.nextLine());
             }
-
             userInput.close();
         } 
         catch (FileNotFoundException e){
