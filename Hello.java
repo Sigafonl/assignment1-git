@@ -21,7 +21,7 @@ class Hello{
             userInput.close();
         } 
         catch (FileNotFoundException e){
-            System.out.println("Hey goober, no file here!");
+            System.out.println("Hey friend, no file here!");
             e.printStackTrace();
         }
     }
