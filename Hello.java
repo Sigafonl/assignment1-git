@@ -15,6 +15,7 @@ class Hello{
         try{
             Scanner userInput = new Scanner(inFile);
 
+            //Print the strings from the files
             while(userInput.hasNextLine()){
                 System.out.println(userInput.nextLine());
             }
