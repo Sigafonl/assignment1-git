@@ -6,7 +6,7 @@ import java.io.*;
 class Hello{
     public static void main (String[] args){
         Scanner keyboard = new Scanner(System.in);
-        System.out.print("Please enter Hey.txt or Goodnight.txt: ");
+        System.out.print("Please enter Hey.txt, Goodnight.txt, or Testing_Server.txt: ");
         String fileName  = keyboard.nextLine();
         File inFile = new File(fileName);
         
